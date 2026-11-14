@@ -2,8 +2,26 @@
   "meta": {
     "description": "Estudio de software que diseña, construye y opera productos digitales, propios y para clientes."
   },
+  "nav": {
+    "services": "Servicios",
+    "work": "Trabajos",
+    "process": "Cómo trabajamos",
+    "about": "Estudio",
+    "contact": "Contacto",
+    "menu": "Menú",
+    "language": "Idioma"
+  },
   "home": {
+    "eyebrow": "Estudio de software · Montevideo",
     "tagline": "Diseñamos, construimos y operamos productos digitales, propios y para clientes.",
-    "status": "Sitio en construcción."
+    "intro": "Trato directo con quien hace el trabajo. Sistemas pensados para crecer, no páginas sueltas.",
+    "ctaPrimary": "Hablemos de tu proyecto",
+    "ctaSecondary": "Ver trabajos"
+  },
+  "sections": {
+    "pending": "Sección en preparación."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
   }
 }

@@ -7,8 +7,8 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 ## Estado
 
 - [x] 1. Estructura base: Next.js en Cloudflare Workers, español e inglés.
-- [ ] 2. Identidad visual provisoria (colores, tipografía, logotipo de texto, distinta de dCOA).
-- [ ] 3. Menú, botones y portada.
+- [x] 2. Identidad visual provisoria: oscuro técnico (fondo #0C0E0D, texto #E8EAE6, gris #6B706C, acento lima #C8F031), Space Grotesk + JetBrains Mono, logotipo `estudio_`. Todo en `globals.css` y `components/Logo.tsx`.
+- [x] 3. Menú, botones y portada (en revisión).
 - [ ] 4. Secciones y textos (es/en): portada, oferta, trabajos, cómo trabajamos, quiénes somos, contacto.
 - [ ] 5. Publicación en workers.dev hasta tener dominio.
 
@@ -21,6 +21,10 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - `cacheComponents` y `partialPrefetching` desactivados: colgaban el worker en Cloudflare y un sitio estático no los necesita.
 - Sin caché R2 ni bindings extra en `wrangler.jsonc`.
 - No se publican montos en el sitio.
+- Oferta principal: sin definir. Portada genérica por ahora; la oferta se suma después sin rehacer la estructura.
+- Sitio de una sola página con secciones por ancla (`#services`, `#work`, `#process`, `#about`, `#contact`). Los ids están en `components/Header.tsx`.
+- Menú de celular con `<details>` y un componente cliente mínimo que lo cierra al tocar un enlace.
+- Advertencia anotada: lo oscuro y técnico puede sentirse menos cercano para pymes; reevaluar con los textos.
 
 ## Forma de trabajar
 

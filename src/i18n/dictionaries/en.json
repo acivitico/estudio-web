@@ -2,8 +2,26 @@
   "meta": {
     "description": "A software studio that designs, builds and runs digital products, our own and for clients."
   },
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "process": "How we work",
+    "about": "Studio",
+    "contact": "Contact",
+    "menu": "Menu",
+    "language": "Language"
+  },
   "home": {
+    "eyebrow": "Software studio · Montevideo",
     "tagline": "We design, build and run digital products, our own and for clients.",
-    "status": "Site under construction."
+    "intro": "You work directly with the people doing the work. Systems built to grow, not one-off pages.",
+    "ctaPrimary": "Tell us about your project",
+    "ctaSecondary": "See our work"
+  },
+  "sections": {
+    "pending": "Section in progress."
+  },
+  "footer": {
+    "rights": "All rights reserved."
   }
 }
