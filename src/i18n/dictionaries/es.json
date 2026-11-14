@@ -23,5 +23,22 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados."
+  },
+  "services": {
+    "title": "Servicios",
+    "items": [
+      {
+        "title": "Consultoría y diagnóstico",
+        "body": "Revisamos cómo funciona tu empresa: procesos, herramientas y datos. Limpiamos lo que sobra y lo que se repite, para que tus procesos sean más ágiles y livianos, y automatizamos o resolvemos con IA lo que tenga sentido. Te entregamos un plan concreto con prioridades, alcance y plazo. Sirve por sí sola o como primer paso de un desarrollo."
+      },
+      {
+        "title": "Desarrollo a medida",
+        "body": "Plataformas, sistemas internos y sitios que no se quedan en una página: se integran con lo que ya usas y están pensados para crecer."
+      },
+      {
+        "title": "Operación y mantenimiento",
+        "body": "Después de la entrega seguimos a cargo: seguridad, actualizaciones y ajustes, con un abono mensual."
+      }
+    ]
   }
 }

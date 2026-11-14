@@ -1,6 +1,7 @@
 import { Button } from "@/components/Button";
 import { Footer } from "@/components/Footer";
 import { Header, sectionIds } from "@/components/Header";
+import { Services } from "@/components/Services";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import { notFound } from "next/navigation";
@@ -34,8 +35,12 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </div>
         </section>
 
-        {/* Secciones del paso 4: por ahora solo título, para que el menú funcione */}
-        {sectionIds.map((id) => (
+        <Services dict={dict} />
+
+        {/* Secciones del paso 4 aún sin texto: solo título, para que el menú funcione */}
+        {sectionIds
+          .filter((id) => id !== "services")
+          .map((id) => (
           <section
             key={id}
             id={id}

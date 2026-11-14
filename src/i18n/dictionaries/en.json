@@ -23,5 +23,22 @@
   },
   "footer": {
     "rights": "All rights reserved."
+  },
+  "services": {
+    "title": "Services",
+    "items": [
+      {
+        "title": "Consulting and assessment",
+        "body": "We review how your business runs: processes, tools and data. We strip out what's redundant and repeated so your processes are leaner and faster, and we automate or handle with AI whatever makes sense. You get a concrete plan with priorities, scope and timeline. It works on its own or as the first step of a build."
+      },
+      {
+        "title": "Custom development",
+        "body": "Platforms, internal systems and websites that go beyond a single page: they connect with what you already use and are built to grow."
+      },
+      {
+        "title": "Operations and maintenance",
+        "body": "After delivery we stay on it: security, updates and adjustments, on a monthly plan."
+      }
+    ]
   }
 }
