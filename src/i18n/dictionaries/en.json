@@ -29,7 +29,7 @@
     "items": [
       {
         "title": "Consulting and assessment",
-        "body": "We review how your business runs: processes, tools and data. We strip out what's redundant and repeated so your processes are leaner and faster, and we automate or handle with AI whatever makes sense. You get a concrete plan with priorities, scope and timeline. It works on its own or as the first step of a build."
+        "body": "We listen to how your business runs: we talk with you and, when needed, with other areas of the business, because each one sees a different part. We review processes, tools and data; we strip out what's redundant and repeated so everything runs leaner and faster, and we automate or handle with AI whatever makes sense. You get a written report with prioritized improvements and a step-by-step plan, with scope and timeline. It works on its own or as the first step of a build."
       },
       {
         "title": "Custom development",
@@ -39,6 +39,12 @@
         "title": "Operations and maintenance",
         "body": "After delivery we stay on it: security, updates and adjustments, on a monthly plan."
       }
-    ]
+    ],
+    "featured": {
+      "eyebrow": "For art galleries",
+      "title": "Your gallery online, easy to maintain",
+      "body": "Catalog, artwork pages with high-quality images and purchase inquiries, in Spanish and English. You add a new work in minutes, without depending on anyone. Built on the same foundation as The Art Lab Galleries, and ready to issue certificates of authenticity with dCOA.",
+      "cta": "Request a demo"
+    }
   }
 }
