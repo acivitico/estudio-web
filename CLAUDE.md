@@ -8,8 +8,8 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 
 - [x] 1. Estructura base: Next.js en Cloudflare Workers, español e inglés.
 - [x] 2. Identidad visual provisoria: oscuro técnico (fondo #0C0E0D, texto #E8EAE6, gris #6B706C, acento lima #C8F031), Space Grotesk + JetBrains Mono, logotipo `estudio_`. Todo en `globals.css` y `components/Logo.tsx`.
-- [x] 3. Menú, botones y portada (en revisión).
-- [ ] 4. Secciones y textos (es/en): portada, oferta, trabajos, cómo trabajamos, quiénes somos, contacto.
+- [x] 3. Menú, botones y portada.
+- [ ] 4. Secciones y textos (es/en). Hechas: Servicios (con oferta para galerías), Trabajos (solo dCOA), Cómo trabajamos, Contacto. Falta: Estudio.
 - [ ] 5. Publicación en workers.dev hasta tener dominio.
 
 ## Decisiones
@@ -21,7 +21,12 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - `cacheComponents` y `partialPrefetching` desactivados: colgaban el worker en Cloudflare y un sitio estático no los necesita.
 - Sin caché R2 ni bindings extra en `wrangler.jsonc`.
 - No se publican montos en el sitio.
-- Oferta principal: sin definir. Portada genérica por ahora; la oferta se suma después sin rehacer la estructura.
+- Oferta destacada: plataforma para galerías (en Servicios). Portada genérica.
+- Servicios: consultoría con informe escrito (2 reuniones base, extras se cotizan), desarrollo a medida llave en mano con manual de uso y documentación técnica, mantenimiento con abono.
+- Trabajos: solo dCOA (dcoa.art y app.dcoa.art). TALG se suma cuando esté migrado.
+- Contacto: WhatsApp Business +598 95 411 147 (en `site.ts`). El correo `info@dominio` se completa en `site.ts` cuando exista el dominio; mientras sea null no se muestra.
+- No se nombra a Wix ni WordPress: se habla de "sin plantillas ni constructores de sitios".
+- Escudo de Civitico (`components/CiviticoMark.tsx`) solo en el pie, como entidad legal.
 - Sitio de una sola página con secciones por ancla (`#services`, `#work`, `#process`, `#about`, `#contact`). Los ids están en `components/Header.tsx`.
 - Menú de celular con `<details>` y un componente cliente mínimo que lo cierra al tocar un enlace.
 - Advertencia anotada: lo oscuro y técnico puede sentirse menos cercano para pymes; reevaluar con los textos.
@@ -43,5 +48,10 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - `npm run deploy`: publica en Cloudflare.
 
 ## Pendientes conocidos
+
+- Sección Estudio: borrador propuesto (estudio en Montevideo, más de 30 años en tecnología, técnica y negocio). Falta decidir si va el nombre de Alfredo con LinkedIn y si se mencionan países.
+- Dominio corto (commit.studio es candidato; comprobar en Cloudflare).
+- Después de publicar: asistente de IA (tech advisor) y WhatsApp con IA, siempre identificándose como asistente, sin dar precios ni plazos, derivando a Alfredo.
+- Paso 5: publicar en workers.dev.
 
 - `npm audit` marca 3 avisos moderados (glob/minimatch) dentro de `@opennextjs/cloudflare`. Solo se usan al armar el sitio, no en el sitio publicado. Revisar cuando el adaptador se actualice.
