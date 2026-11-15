@@ -10,33 +10,15 @@ export function CiviticoMark({ className = "" }: { className?: string }) {
       aria-label="Civitico y Cía. Ltda."
     >
       <defs>
-        {/* Solo la C: para que la diagonal la cruce en el color del escudo */}
-        <mask id="civitico-c">
-          <path
-            d="M94.3 43.7 A33 33 0 1 0 94.3 90.3"
-            fill="none"
-            stroke="white"
-            strokeWidth="20"
-          />
-        </mask>
         <mask id="civitico-cut">
           <rect width="152" height="176" fill="white" />
           <path
-            d="M94.3 43.7 A33 33 0 1 0 94.3 90.3"
+            d="M100 46.7 A33 33 0 1 0 100 87.3"
             fill="none"
             stroke="black"
-            strokeWidth="20"
+            strokeWidth="26"
           />
           <line x1="0" y1="132" x2="152" y2="0" stroke="black" strokeWidth="3" />
-          <line
-            x1="0"
-            y1="132"
-            x2="152"
-            y2="0"
-            stroke="white"
-            strokeWidth="3"
-            mask="url(#civitico-c)"
-          />
         </mask>
       </defs>
       <g fill="currentColor" mask="url(#civitico-cut)">
