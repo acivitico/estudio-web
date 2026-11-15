@@ -6,4 +6,12 @@ export const site = {
   url: "https://estudio-web.workers.dev",
   city: "Montevideo",
   legalName: "Civitico y Cía. Ltda.",
+  contact: {
+    // WhatsApp Business: número en formato internacional, sin + ni espacios.
+    whatsapp: "59895411147",
+    whatsappDisplay: "+598 95 411 147",
+    // Se completa cuando exista el dominio (info@dominio.studio).
+    // Mientras sea null, el correo no se muestra en el sitio.
+    email: null as string | null,
+  },
 } as const;

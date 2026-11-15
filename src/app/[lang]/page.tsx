@@ -1,7 +1,9 @@
 import { Button } from "@/components/Button";
+import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { Header, sectionIds } from "@/components/Header";
 import { Services } from "@/components/Services";
+import { Process } from "@/components/Process";
 import { Work } from "@/components/Work";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
@@ -38,10 +40,11 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
 
         <Services dict={dict} />
         <Work dict={dict} />
+        <Process dict={dict} />
 
         {/* Secciones del paso 4 aún sin texto: solo título, para que el menú funcione */}
         {sectionIds
-          .filter((id) => id !== "services" && id !== "work")
+          .filter((id) => !["services", "work", "process", "contact"].includes(id))
           .map((id) => (
           <section
             key={id}
@@ -58,6 +61,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             </div>
           </section>
         ))}
+        <Contact dict={dict} />
       </main>
 
       <Footer dict={dict} />

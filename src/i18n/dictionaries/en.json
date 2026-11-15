@@ -33,7 +33,7 @@
       },
       {
         "title": "Custom development",
-        "body": "Platforms, internal systems and websites that go beyond a single page: they connect with what you already use and are built to grow."
+        "body": "Platforms, internal systems and websites that go beyond a single page: they connect with what you already use and are built to grow. Turnkey: we handle the domain, email, hosting and launch, and you get a user guide and technical documentation."
       },
       {
         "title": "Operations and maintenance",
@@ -78,5 +78,39 @@
       "problem": "The problem",
       "solution": "What we built"
     }
+  },
+  "process": {
+    "title": "How we work",
+    "steps": [
+      {
+        "title": "Scope and timeline",
+        "body": "Together we define what you need and by when. The timeline sets the pace of the work and the payment schedule. We don't bill by the hour. If you need it sooner, it can be done: the work is more intensive and the price is higher."
+      },
+      {
+        "title": "What we agree, in writing",
+        "body": "We work from a concrete list of features. If something new comes up, we estimate it separately and you decide whether to add it, with its cost and timeline."
+      },
+      {
+        "title": "Payments tied to deliveries",
+        "body": "A first payment to start, and the rest against something you can see working."
+      },
+      {
+        "title": "One meeting a week",
+        "body": "Thirty minutes: what got done, what's next and what changes you'd like, always with something working to show. Afterwards you get a written summary."
+      },
+      {
+        "title": "After delivery",
+        "body": "We stay on it with a maintenance plan: security, updates and adjustments."
+      }
+    ],
+    "note": "In-house development, using the same technologies software companies use: no templates and no site builders. Your system can grow without platform limits."
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Tell us what you need. You'll hear back directly from the person who will do the work.",
+    "whatsapp": "Message us on WhatsApp",
+    "whatsappMessage": "Hi, I'd like to ask about a project.",
+    "email": "Email",
+    "location": "Montevideo, Uruguay. We also work remotely."
   }
 }

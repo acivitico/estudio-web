@@ -33,7 +33,7 @@
       },
       {
         "title": "Desarrollo a medida",
-        "body": "Plataformas, sistemas internos y sitios que no se quedan en una página: se integran con lo que ya usas y están pensados para crecer."
+        "body": "Plataformas, sistemas internos y sitios que no se quedan en una página: se integran con lo que ya usas y están pensados para crecer. Llave en mano: nos ocupamos del dominio, el correo, el hosting y la publicación, y te entregamos un manual de uso y la documentación técnica."
       },
       {
         "title": "Operación y mantenimiento",
@@ -78,5 +78,39 @@
       "problem": "El problema",
       "solution": "Qué hicimos"
     }
+  },
+  "process": {
+    "title": "Cómo trabajamos",
+    "steps": [
+      {
+        "title": "Alcance y plazo",
+        "body": "Definimos juntos qué necesitas y para cuándo. El plazo define la intensidad del trabajo y la forma de pago. No cobramos por horas. Si lo necesitas antes, se puede: el trabajo es más intenso y el precio, mayor."
+      },
+      {
+        "title": "Lo acordado, por escrito",
+        "body": "Trabajamos sobre una lista concreta de funciones. Si surge algo nuevo, lo estimamos aparte y tú decides si lo sumas, con su costo y su plazo."
+      },
+      {
+        "title": "Pagos contra entregas",
+        "body": "Un primer pago al empezar y los siguientes contra algo que puedes ver funcionando."
+      },
+      {
+        "title": "Una reunión por semana",
+        "body": "Treinta minutos: qué se hizo, qué sigue y qué cambios pides, siempre con algo funcionando para mostrar. Después recibes un resumen por escrito."
+      },
+      {
+        "title": "Después de la entrega",
+        "body": "Seguimos a cargo con un abono de mantenimiento: seguridad, actualizaciones y ajustes."
+      }
+    ],
+    "note": "Desarrollo propio, con las mismas tecnologías que usan las empresas de software: sin plantillas ni constructores de sitios. Tu sistema puede crecer sin límites de plataforma."
+  },
+  "contact": {
+    "title": "Contacto",
+    "lead": "Cuéntanos qué necesitas. Te responde directamente quien va a hacer el trabajo.",
+    "whatsapp": "Escríbenos por WhatsApp",
+    "whatsappMessage": "Hola, quiero consultar por un proyecto.",
+    "email": "Correo",
+    "location": "Montevideo, Uruguay. Trabajamos también a distancia."
   }
 }
