@@ -46,5 +46,37 @@
       "body": "Catalog, artwork pages with high-quality images and purchase inquiries, in Spanish and English. You add a new work in minutes, without depending on anyone. Built on the same foundation as The Art Lab Galleries, and ready to issue certificates of authenticity with dCOA.",
       "cta": "Request a demo"
     }
+  },
+  "work": {
+    "title": "Work",
+    "items": [
+      {
+        "name": "dCOA",
+        "eyebrow": "Our own product",
+        "summary": "Digital certificate of authenticity for artworks.",
+        "problem": "Paper certificates get lost, get copied and don't record whose hands a work has passed through.",
+        "solution": "We built a complete platform: passwordless sign-in, artwork registry, certificate issuance, public verification by QR code, transfers between artist, gallery and collector, and timestamping that proves the record hasn't changed.",
+        "stack": [
+          "Next.js",
+          "Supabase",
+          "Cloudflare",
+          "OpenTimestamps"
+        ],
+        "links": [
+          {
+            "label": "Website",
+            "href": "https://dcoa.art"
+          },
+          {
+            "label": "Platform",
+            "href": "https://app.dcoa.art"
+          }
+        ]
+      }
+    ],
+    "labels": {
+      "problem": "The problem",
+      "solution": "What we built"
+    }
   }
 }
