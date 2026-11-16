@@ -18,9 +18,6 @@
     "ctaPrimary": "Tell us about your project",
     "ctaSecondary": "See our work"
   },
-  "sections": {
-    "pending": "Section in progress."
-  },
   "footer": {
     "rights": "All rights reserved."
   },
@@ -112,5 +109,14 @@
     "whatsappMessage": "Hi, I'd like to ask about a project.",
     "email": "Email",
     "location": "Montevideo, Uruguay. We also work remotely."
+  },
+  "about": {
+    "title": "Studio",
+    "paragraphs": [
+      "We are a software studio based in Montevideo. We build our own products, like dCOA, and work with a few clients at a time, so every project gets direct attention.",
+      "Behind the studio are more than 30 years in technology across Venezuela and Uruguay: software development, HP solutions distribution, e-learning platforms for companies and, in recent years, digital products for the art market.",
+      "That mix of technology and business is what we bring to every project: understanding how your company works before writing a single line of code."
+    ],
+    "founder": "Founded by Alfredo Civitico"
   }
 }

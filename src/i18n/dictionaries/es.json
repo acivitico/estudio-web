@@ -18,9 +18,6 @@
     "ctaPrimary": "Hablemos de tu proyecto",
     "ctaSecondary": "Ver trabajos"
   },
-  "sections": {
-    "pending": "Sección en preparación."
-  },
   "footer": {
     "rights": "Todos los derechos reservados."
   },
@@ -112,5 +109,14 @@
     "whatsappMessage": "Hola, quiero consultar por un proyecto.",
     "email": "Correo",
     "location": "Montevideo, Uruguay. Trabajamos también a distancia."
+  },
+  "about": {
+    "title": "Estudio",
+    "paragraphs": [
+      "Somos un estudio de software con base en Montevideo. Desarrollamos productos propios, como dCOA, y trabajamos con pocos clientes a la vez, para que cada proyecto tenga atención directa.",
+      "Detrás del estudio hay más de 30 años en tecnología en Venezuela y Uruguay: desarrollo de software, distribución de soluciones HP, plataformas de e-learning para empresas y, en los últimos años, productos digitales para el mercado del arte.",
+      "Esa mezcla de técnica y negocio es lo que traemos a cada proyecto: entender cómo funciona tu empresa antes de escribir una línea de código."
+    ],
+    "founder": "Fundado por Alfredo Civitico"
   }
 }

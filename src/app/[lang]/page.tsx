@@ -1,7 +1,8 @@
 import { Button } from "@/components/Button";
+import { About } from "@/components/About";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
-import { Header, sectionIds } from "@/components/Header";
+import { Header } from "@/components/Header";
 import { Services } from "@/components/Services";
 import { Process } from "@/components/Process";
 import { Work } from "@/components/Work";
@@ -41,26 +42,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <Services dict={dict} />
         <Work dict={dict} />
         <Process dict={dict} />
-
-        {/* Secciones del paso 4 aún sin texto: solo título, para que el menú funcione */}
-        {sectionIds
-          .filter((id) => !["services", "work", "process", "contact"].includes(id))
-          .map((id) => (
-          <section
-            key={id}
-            id={id}
-            className="scroll-mt-16 border-t border-line"
-          >
-            <div className="mx-auto max-w-7xl px-6 py-24 sm:px-12">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-5xl">
-                {dict.nav[id]}
-              </h2>
-              <p className="mt-4 font-mono text-sm text-muted">
-                {dict.sections.pending}
-              </p>
-            </div>
-          </section>
-        ))}
+        <About dict={dict} />
         <Contact dict={dict} />
       </main>
 

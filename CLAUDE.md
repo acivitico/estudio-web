@@ -9,7 +9,7 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - [x] 1. Estructura base: Next.js en Cloudflare Workers, español e inglés.
 - [x] 2. Identidad visual provisoria: oscuro técnico (fondo #0C0E0D, texto #E8EAE6, gris #6B706C, acento lima #C8F031), Space Grotesk + JetBrains Mono, logotipo `estudio_`. Todo en `globals.css` y `components/Logo.tsx`.
 - [x] 3. Menú, botones y portada.
-- [ ] 4. Secciones y textos (es/en). Hechas: Servicios (con oferta para galerías), Trabajos (solo dCOA), Cómo trabajamos, Contacto. Falta: Estudio.
+- [x] 4. Secciones y textos (es/en): Servicios (con oferta para galerías), Trabajos (solo dCOA), Cómo trabajamos, Estudio, Contacto. Textos a perfilar.
 - [ ] 5. Publicación en workers.dev hasta tener dominio.
 
 ## Decisiones
@@ -26,6 +26,7 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - Trabajos: solo dCOA (dcoa.art y app.dcoa.art). TALG se suma cuando esté migrado.
 - Contacto: WhatsApp Business +598 95 411 147 (en `site.ts`). El correo `info@dominio` se completa en `site.ts` cuando exista el dominio; mientras sea null no se muestra.
 - No se nombra a Wix ni WordPress: se habla de "sin plantillas ni constructores de sitios".
+- Estudio: con nombre del fundador y enlace a LinkedIn (`site.founder` en `site.ts`) y trayectoria en Venezuela y Uruguay. Foco comercial: clientes de la región, por relaciones.
 - Escudo de Civitico (`components/CiviticoMark.tsx`) solo en el pie, como entidad legal.
 - Sitio de una sola página con secciones por ancla (`#services`, `#work`, `#process`, `#about`, `#contact`). Los ids están en `components/Header.tsx`.
 - Menú de celular con `<details>` y un componente cliente mínimo que lo cierra al tocar un enlace.
@@ -49,7 +50,6 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 
 ## Pendientes conocidos
 
-- Sección Estudio: borrador propuesto (estudio en Montevideo, más de 30 años en tecnología, técnica y negocio). Falta decidir si va el nombre de Alfredo con LinkedIn y si se mencionan países.
 - Dominio corto (commit.studio es candidato; comprobar en Cloudflare).
 - Después de publicar: asistente de IA (tech advisor) y WhatsApp con IA, siempre identificándose como asistente, sin dar precios ni plazos, derivando a Alfredo.
 - Paso 5: publicar en workers.dev.
