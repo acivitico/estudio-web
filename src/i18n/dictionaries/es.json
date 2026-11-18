@@ -40,7 +40,7 @@
     "featured": {
       "eyebrow": "Para galerías de arte",
       "title": "Tu galería en línea, fácil de mantener",
-      "body": "Catálogo, fichas de obra con imágenes en alta calidad y consultas de compra, en varios idiomas: español, inglés, portugués y los que necesites. Cargas una obra nueva en minutos, sin depender de nadie. Construido sobre la misma base que The Art Lab Galleries, y listo para emitir certificados de autenticidad con dCOA.",
+      "body": "Una plataforma modular: empiezas con catálogo, fichas de obra, artistas y consultas, y sumas módulos como ediciones limitadas, impresiones bajo demanda o certificados de autenticidad con dCOA. Pagas una cuota mensual según los módulos que uses, más una instalación única. Hosting, seguridad y actualizaciones están incluidos. Cargas una obra nueva en minutos, sin depender de nadie. Es la misma base de The Art Lab Galleries.",
       "cta": "Pide una demostración"
     }
   },
@@ -73,9 +73,9 @@
       {
         "name": "Vernissage",
         "eyebrow": "Producto propio · Plataforma para galerías",
-        "summary": "Plataforma modular para galerías de arte: cada galería tiene su propio sitio y su panel de gestión, y suma módulos a medida que los necesita.",
-        "problem": "Una galería necesita mostrar su catálogo con la calidad que merecen las obras, pero los sitios hechos con plantillas son difíciles de mantener, se rompen con el tiempo y no entienden cómo funciona el mundo del arte: ediciones, ejemplares, fichas técnicas, consultas privadas.",
-        "solution": "Construimos una plataforma pensada para galerías, que sirve tanto a una galería solo en línea como a una con sala física. Catálogo con filtros y obras identificadas con un código único; ficha descargable en PDF con código QR que devuelve a la obra; páginas de artistas con CV; consultas que llegan a un panel propio; ediciones limitadas por ejemplar y por tamaño de impresión; portada editable con carrusel, manifiesto o fotos de la sala; y newsletter con exportación de suscriptores. Todo en español e inglés, con un diseño propio para cada galería. Tras la puesta a punto, la galería se autogestiona. Próximos módulos: traducción de textos curatoriales con IA, impresiones bajo demanda con carrito, certificados de autenticidad con dCOA, exhibiciones con recorrido guiado y un asesor de arte con IA. Se ofrece como concesión de uso con una cuota mensual según los módulos y un costo de instalación único.",
+        "summary": "Plataforma modular para galerías de arte. Empiezas con lo esencial y sumas módulos cuando los necesitas, sin rehacer el sitio.",
+        "problem": "Los sitios hechos con plantillas no entienden el mundo del arte: no manejan ediciones, ejemplares, fichas técnicas ni consultas privadas. Y cada cambio grande obliga a empezar de nuevo.",
+        "solution": "Una base común y módulos que se activan por galería. La base incluye catálogo con filtros, obras con código único, ficha en PDF con QR, artistas con CV, consultas y newsletter, en español e inglés y con un diseño propio para cada galería, solo en línea o con sala física. Sobre ella se suman módulos: ediciones limitadas por ejemplar y por tamaño, y próximamente impresiones bajo demanda con carrito, certificados de autenticidad con dCOA, exhibiciones con recorrido guiado y traducción con IA. Después de la puesta a punto, la galería la administra sola. No se compra un sitio: se contrata la plataforma con una cuota mensual según los módulos, más una instalación única. Hosting, seguridad y actualizaciones están incluidos.",
         "stack": [
           "Next.js",
           "Supabase",

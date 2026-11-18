@@ -40,7 +40,7 @@
     "featured": {
       "eyebrow": "For art galleries",
       "title": "Your gallery online, easy to maintain",
-      "body": "Catalog, artwork pages with high-quality images and purchase inquiries, in multiple languages: English, Spanish, Portuguese and any others you need. You add a new work in minutes, without depending on anyone. Built on the same foundation as The Art Lab Galleries, and ready to issue certificates of authenticity with dCOA.",
+      "body": "A modular platform: start with the catalog, artwork pages, artists and inquiries, then add modules such as limited editions, print-on-demand or certificates of authenticity with dCOA. You pay a monthly fee based on the modules you use, plus a one-time setup. Hosting, security and updates are included. You add a new work in minutes, without depending on anyone. It runs on the same foundation as The Art Lab Galleries.",
       "cta": "Request a demo"
     }
   },
@@ -73,9 +73,9 @@
       {
         "name": "Vernissage",
         "eyebrow": "Our own product · Gallery platform",
-        "summary": "A modular platform for art galleries: each gallery gets its own site and management panel, and adds modules as it needs them.",
-        "problem": "A gallery needs to show its catalog with the quality the works deserve, but template-built sites are hard to maintain, break over time and don't understand how the art world works: editions, numbered copies, artwork sheets, private inquiries.",
-        "solution": "We built a platform made for galleries, suited both to online-only galleries and to those with a physical space. A filterable catalog with every work identified by a unique code; a downloadable PDF sheet with a QR code that leads back to the work; artist pages with CVs; inquiries delivered to the gallery's own panel; limited editions by copy and by print size; an editable homepage with a carousel, a manifesto or photos of the space; and a newsletter with subscriber export. Everything in English and Spanish, with its own design for each gallery. After setup, the gallery runs it on its own. Coming next: AI translation of curatorial texts, print-on-demand with a cart, certificates of authenticity with dCOA, exhibitions with a guided walk-through and an AI art advisor. Offered as a license to use, with a monthly fee based on the modules and a one-time setup fee.",
+        "summary": "A modular platform for art galleries. Start with the essentials and add modules when you need them, without rebuilding the site.",
+        "problem": "Template-built sites don't understand the art world: they can't handle editions, numbered copies, artwork sheets or private inquiries. And every major change means starting over.",
+        "solution": "A shared core plus modules switched on per gallery. The core includes a filterable catalog, works with unique codes, a PDF sheet with QR code, artist pages with CVs, inquiries and a newsletter, in English and Spanish, with its own design for each gallery, online-only or with a physical space. Modules add on top: limited editions by copy and by size, and coming soon print-on-demand with a cart, certificates of authenticity with dCOA, exhibitions with a guided walk-through and AI translation. After setup, the gallery runs it on its own. You don't buy a website: you subscribe to the platform with a monthly fee based on your modules, plus a one-time setup. Hosting, security and updates are included.",
         "stack": [
           "Next.js",
           "Supabase",
