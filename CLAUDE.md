@@ -9,7 +9,7 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - [x] 1. Estructura base: Next.js en Cloudflare Workers, español e inglés.
 - [x] 2. Identidad visual provisoria: oscuro técnico (fondo #0C0E0D, texto #E8EAE6, gris #6B706C, acento lima #C8F031), Space Grotesk + JetBrains Mono, logotipo `estudio_`. Todo en `globals.css` y `components/Logo.tsx`.
 - [x] 3. Menú, botones y portada.
-- [x] 4. Secciones y textos (es/en): Servicios (con oferta para galerías), Trabajos (solo dCOA), Cómo trabajamos, Estudio, Contacto. Textos a perfilar.
+- [x] 4. Secciones y textos (es/en): Servicios (con oferta para galerías), Trabajos (dCOA y Vernissage), Cómo trabajamos, Estudio, Contacto. Textos a perfilar.
 - [ ] 5. Publicación en workers.dev hasta tener dominio.
 
 ## Decisiones
@@ -23,7 +23,7 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - No se publican montos en el sitio.
 - Oferta destacada: plataforma para galerías (en Servicios). Portada genérica.
 - Servicios: consultoría con informe escrito (2 reuniones base, extras se cotizan), desarrollo a medida llave en mano con manual de uso y documentación técnica, mantenimiento con abono.
-- Trabajos: solo dCOA (dcoa.art y app.dcoa.art). TALG se suma cuando esté migrado.
+- Trabajos: dCOA (dcoa.art y app.dcoa.art) y Vernissage, la plataforma modular para galerías, con enlace a la demo https://vernissage.acivitico.workers.dev (datos de TALG, sin carrito). Se explica el modelo (cuota mensual por módulos + instalación única, hosting y actualizaciones incluidos) sin montos; el precio se conversa con cada galería.
 - Contacto: WhatsApp Business +598 95 411 147 (en `site.ts`). El correo `info@dominio` se completa en `site.ts` cuando exista el dominio; mientras sea null no se muestra.
 - No se nombra a Wix ni WordPress: se habla de "sin plantillas ni constructores de sitios".
 - Estudio: con nombre del fundador y enlace a LinkedIn (`site.founder` en `site.ts`) y trayectoria en Venezuela y Uruguay. Foco comercial: clientes de la región, por relaciones.
