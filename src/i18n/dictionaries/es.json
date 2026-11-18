@@ -69,6 +69,25 @@
             "href": "https://app.dcoa.art"
           }
         ]
+      },
+      {
+        "name": "Vernissage",
+        "eyebrow": "Producto propio · Plataforma para galerías",
+        "summary": "Plataforma modular para galerías de arte: cada galería tiene su propio sitio y su panel de gestión, y suma módulos a medida que los necesita.",
+        "problem": "Una galería necesita mostrar su catálogo con la calidad que merecen las obras, pero los sitios hechos con plantillas son difíciles de mantener, se rompen con el tiempo y no entienden cómo funciona el mundo del arte: ediciones, ejemplares, fichas técnicas, consultas privadas.",
+        "solution": "Construimos una plataforma pensada para galerías, que sirve tanto a una galería solo en línea como a una con sala física. Catálogo con filtros y obras identificadas con un código único; ficha descargable en PDF con código QR que devuelve a la obra; páginas de artistas con CV; consultas que llegan a un panel propio; ediciones limitadas por ejemplar y por tamaño de impresión; portada editable con carrusel, manifiesto o fotos de la sala; y newsletter con exportación de suscriptores. Todo en español e inglés, con un diseño propio para cada galería. Tras la puesta a punto, la galería se autogestiona. Próximos módulos: traducción de textos curatoriales con IA, impresiones bajo demanda con carrito, certificados de autenticidad con dCOA, exhibiciones con recorrido guiado y un asesor de arte con IA. Se ofrece como concesión de uso con una cuota mensual según los módulos y un costo de instalación único.",
+        "stack": [
+          "Next.js",
+          "Supabase",
+          "Cloudflare Workers",
+          "R2"
+        ],
+        "links": [
+          {
+            "label": "Ver la demo",
+            "href": "https://vernissage.acivitico.workers.dev"
+          }
+        ]
       }
     ],
     "labels": {
