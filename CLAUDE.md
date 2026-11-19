@@ -10,7 +10,7 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - [x] 2. Identidad visual provisoria: oscuro técnico (fondo #0C0E0D, texto #E8EAE6, gris #6B706C, acento lima #C8F031), Space Grotesk + JetBrains Mono, logotipo `estudio_`. Todo en `globals.css` y `components/Logo.tsx`.
 - [x] 3. Menú, botones y portada.
 - [x] 4. Secciones y textos (es/en): Servicios (con oferta para galerías), Trabajos (dCOA y Vernissage), Cómo trabajamos, Estudio, Contacto. Textos a perfilar.
-- [ ] 5. Publicación en workers.dev hasta tener dominio.
+- [ ] 5. Publicación. Hay una versión en https://estudio-web.acivitico.workers.dev. No se vuelve a publicar hasta tener dominio y logo: ese día se hace el cambio completo (nombre, logo, dominio y correo `info@` en Contacto).
 
 ## Decisiones
 
@@ -23,10 +23,12 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - No se publican montos en el sitio.
 - Oferta destacada: plataforma para galerías (en Servicios). Portada genérica.
 - Servicios: consultoría con informe escrito (2 reuniones base, extras se cotizan), desarrollo a medida llave en mano con manual de uso y documentación técnica, mantenimiento con abono.
-- Trabajos: dCOA (dcoa.art y app.dcoa.art) y Vernissage, la plataforma modular para galerías, con enlace a la demo https://vernissage.acivitico.workers.dev (datos de TALG, sin carrito). Se explica el modelo (cuota mensual por módulos + instalación única, hosting y actualizaciones incluidos) sin montos; el precio se conversa con cada galería.
+- Cada proyecto en su propio repositorio. Acá vive solo el sitio del estudio; las decisiones de cada producto se anotan en su repositorio.
+- Trabajos: fichas de dCOA (dcoa.art y app.dcoa.art) y Vernissage (enlace a su demo). Sin montos.
 - Contacto: WhatsApp Business +598 95 411 147 (en `site.ts`). El correo `info@dominio` se completa en `site.ts` cuando exista el dominio; mientras sea null no se muestra.
 - No se nombra a Wix ni WordPress: se habla de "sin plantillas ni constructores de sitios".
 - Estudio: con nombre del fundador y enlace a LinkedIn (`site.founder` en `site.ts`) y trayectoria en Venezuela y Uruguay. Foco comercial: clientes de la región, por relaciones.
+- Cursor titilante (guion bajo en lima, clase `cursor` en `globals.css`): es un sello de la identidad y se conserva aunque cambie el logo. Hoy va en el logotipo (menú y pie) y al final de la frase principal de la portada (es/en). Usarlo con moderación, en uno o dos lugares más como mucho (por ejemplo, un título de sección clave), para que no pierda efecto.
 - Escudo de Civitico (`components/CiviticoMark.tsx`) solo en el pie, como entidad legal.
 - Sitio de una sola página con secciones por ancla (`#services`, `#work`, `#process`, `#about`, `#contact`). Los ids están en `components/Header.tsx`.
 - Menú de celular con `<details>` y un componente cliente mínimo que lo cierra al tocar un enlace.
@@ -50,8 +52,8 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 
 ## Pendientes conocidos
 
-- Dominio corto (commit.studio es candidato; comprobar en Cloudflare).
+- Nombre y dominio: candidato fuerte Nex8 (logo NEX8 con el 8 en lima, sin "Studio"). Dominios a comprar en Cloudflare: nex8.studio y nexocho.studio (redirige). Pendiente de compra; después, redibujar el logo en SVG e ícono con el 8 para favicon y redes.
 - Después de publicar: asistente de IA (tech advisor) y WhatsApp con IA, siempre identificándose como asistente, sin dar precios ni plazos, derivando a Alfredo.
-- Paso 5: publicar en workers.dev.
+- Trabajos: sumar nuevos casos solo cuando haya más desarrollos terminados.
 
 - `npm audit` marca 3 avisos moderados (glob/minimatch) dentro de `@opennextjs/cloudflare`. Solo se usan al armar el sitio, no en el sitio publicado. Revisar cuando el adaptador se actualice.

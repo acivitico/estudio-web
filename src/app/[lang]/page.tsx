@@ -27,6 +27,9 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
           </p>
           <h1 className="max-w-5xl text-4xl leading-[1.05] font-bold tracking-tight sm:text-6xl lg:text-7xl 2xl:text-8xl">
             {dict.home.tagline}
+            <span className="cursor text-accent" aria-hidden="true">
+              _
+            </span>
           </h1>
           <p className="max-w-2xl text-lg text-muted sm:text-xl">
             {dict.home.intro}
