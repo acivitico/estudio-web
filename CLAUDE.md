@@ -24,7 +24,7 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - Oferta destacada: plataforma para galerías (en Servicios). Portada genérica.
 - Servicios: consultoría con informe escrito (2 reuniones base, extras se cotizan), desarrollo a medida llave en mano con manual de uso y documentación técnica, mantenimiento con abono.
 - Cada proyecto en su propio repositorio. Acá vive solo el sitio del estudio; las decisiones de cada producto se anotan en su repositorio.
-- Trabajos: fichas de dCOA (dcoa.art y app.dcoa.art) y Vernissage (enlace a su demo). Sin montos.
+- Trabajos: fichas de dCOA (dcoa.art y app.dcoa.art) y Vernissage, como producto (el botón lleva a theartlabgalleries.com, que funciona sobre Vernissage). Sin montos.
 - Contacto: WhatsApp Business +598 95 411 147 (en `site.ts`). El correo `info@dominio` se completa en `site.ts` cuando exista el dominio; mientras sea null no se muestra.
 - No se nombra a Wix ni WordPress: se habla de "sin plantillas ni constructores de sitios".
 - Estudio: con nombre del fundador y enlace a LinkedIn (`site.founder` en `site.ts`) y trayectoria en Venezuela y Uruguay. Foco comercial: clientes de la región, por relaciones.
