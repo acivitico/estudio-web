@@ -10,7 +10,7 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 - [x] 2. Identidad visual provisoria: oscuro técnico (fondo #0C0E0D, texto #E8EAE6, gris #6B706C, acento lima #C8F031), Space Grotesk + JetBrains Mono. Colores en `globals.css`; logo zero9.studio en `components/Logo.tsx` (".studio" en gris, misma línea y tamaño legible; `withStudio={false}` deja solo zero9), favicon en `public/icon.svg` y `public/favicon.ico`.
 - [x] 3. Menú, botones y portada.
 - [x] 4. Secciones y textos (es/en): Servicios (con oferta para galerías), Trabajos (dCOA y Vernissage), Cómo trabajamos, Estudio, Contacto. Textos a perfilar.
-- [ ] 5. Publicación. Hay una versión en https://estudio-web.acivitico.workers.dev. No se vuelve a publicar hasta tener dominio y logo: ese día se hace el cambio completo (nombre, logo, dominio y correo `info@` en Contacto).
+- [ ] 5. Publicación. La versión con zero9 (logo, favicon y correo) está publicada en https://estudio-web.acivitico.workers.dev desde el 23/11/2026. Falta conectar zero9.studio a esa publicación y activar el reenvío de info@zero9.studio, que hasta entonces no recibe correos.
 
 ## Decisiones
 
