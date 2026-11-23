@@ -25,6 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: site.name,
     description: dict.meta.description,
+    icons: { icon: "/icon.svg" },
   };
 }
 

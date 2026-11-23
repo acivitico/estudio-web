@@ -8,7 +8,7 @@ export function Footer({ dict }: { dict: Dictionary }) {
   return (
     <footer className="border-t border-line">
       <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-10 font-mono text-xs text-muted sm:flex-row sm:items-center sm:justify-between sm:px-12">
-        <Logo className="text-sm text-fg" />
+        <Logo variant="stacked" className="h-10 text-fg" />
         <div className="group flex items-center gap-3">
           <CiviticoMark className="h-7 w-auto shrink-0 transition-colors group-hover:text-accent" />
           <p>

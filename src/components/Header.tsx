@@ -50,8 +50,8 @@ export function Header({ lang, dict }: Props) {
   return (
     <header className="sticky top-0 z-10 border-b border-line bg-bg/90 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 sm:px-12">
-        <a href={`/${lang}`} className="text-lg">
-          <Logo />
+        <a href={`/${lang}`} className="text-fg">
+          <Logo className="h-6 sm:h-7" />
         </a>
 
         {/* Escritorio y tablet horizontal */}
