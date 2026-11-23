@@ -2,19 +2,14 @@ import { site } from "@/config/site";
 
 // Logotipo de zero9, redibujado desde los SVG originales.
 // Las letras toman el color del texto (currentColor), el 9 va en lima y
-// ".studio" en gris. "inline": solo zero9, para el menú.
-// "stacked": con .studio debajo, para el pie y tamaños grandes.
-type Props = { variant?: "inline" | "stacked"; className?: string };
+// ".studio" en gris, en la tipografía de código del sitio y en la misma
+// línea, a un tamaño legible. withStudio={false} deja solo "zero9".
+type Props = { withStudio?: boolean; className?: string };
 
-const viewBoxes = {
-  inline: "20 61 511 144",
-  stacked: "20 61 511 184",
-};
-
-export function Logo({ variant = "inline", className = "" }: Props) {
+export function Logo({ withStudio = true, className = "" }: Props) {
   return (
     <svg
-      viewBox={viewBoxes[variant]}
+      viewBox={withStudio ? "20 61 935 144" : "20 61 511 144"}
       className={`w-auto ${className}`}
       role="img"
       aria-label={site.name}
@@ -28,16 +23,17 @@ export function Logo({ variant = "inline", className = "" }: Props) {
       <g className="fill-accent">
       <path d="M600 -24C991 -24 1201 292 1201 783C1201 1246 986 1514 614 1514C291 1514 63 1308 63 1004C63 717 273 507 561 507C715 507 841 565 914 679H916C916 401 816 214 603 214C472 214 385 288 363 405H76C102 159 303 -24 600 -24ZM613 739C466 739 355 852 355 1004C355 1157 468 1272 616 1272C762 1272 875 1157 875 1005C875 853 761 739 613 739Z" transform="translate(419.236,202.000) scale(0.09277344,-0.09277344)" />
       </g>
-      {variant === "stacked" && (
-        <g className="fill-muted">
-      <path d="M489 305H741V0H489Z" transform="translate(414.000,244.000) scale(0.009277,-0.009277)" />
-      <path d="M973 1081V901Q894 947 814.0 970.0Q734 993 651 993Q526 993 464.5 952.5Q403 912 403 829Q403 754 449.0 717.0Q495 680 678 645L752 631Q889 605 959.5 527.0Q1030 449 1030 324Q1030 158 912.0 64.5Q794 -29 584 -29Q501 -29 410.0 -11.5Q319 6 213 41V231Q316 178 410.0 151.5Q504 125 588 125Q710 125 777.0 174.5Q844 224 844 313Q844 441 599 490L591 492L522 506Q363 537 290.0 610.5Q217 684 217 811Q217 972 326.0 1059.5Q435 1147 637 1147Q727 1147 810.0 1130.5Q893 1114 973 1081Z" transform="translate(425.467,244.000) scale(0.009277,-0.009277)" />
-      <path d="M614 1438V1120H1032V977H614V369Q614 245 661.0 196.0Q708 147 825 147H1032V0H807Q600 0 515.0 83.0Q430 166 430 369V977H131V1120H430V1438Z" transform="translate(436.934,244.000) scale(0.009277,-0.009277)" />
-      <path d="M195 424V1118H379V424Q379 273 432.5 202.0Q486 131 598 131Q728 131 797.0 222.5Q866 314 866 485V1118H1051V0H866V168Q817 71 732.5 21.0Q648 -29 535 -29Q363 -29 279.0 83.5Q195 196 195 424Z" transform="translate(448.400,244.000) scale(0.009277,-0.009277)" />
-      <path d="M858 977V1556H1042V0H858V141Q812 58 735.5 14.5Q659 -29 559 -29Q356 -29 239.5 128.5Q123 286 123 563Q123 836 240.0 991.5Q357 1147 559 1147Q660 1147 737.0 1103.5Q814 1060 858 977ZM317 559Q317 345 385.0 236.0Q453 127 586 127Q719 127 788.5 237.0Q858 347 858 559Q858 772 788.5 881.5Q719 991 586 991Q453 991 385.0 882.0Q317 773 317 559Z" transform="translate(459.867,244.000) scale(0.009277,-0.009277)" />
-      <path d="M256 1120H727V143H1092V0H178V143H543V977H256ZM543 1556H727V1323H543Z" transform="translate(471.334,244.000) scale(0.009277,-0.009277)" />
-      <path d="M616 991Q476 991 404.0 882.0Q332 773 332 559Q332 346 404.0 236.5Q476 127 616 127Q757 127 829.0 236.5Q901 346 901 559Q901 773 829.0 882.0Q757 991 616 991ZM616 1147Q849 1147 972.5 996.0Q1096 845 1096 559Q1096 272 973.0 121.5Q850 -29 616 -29Q383 -29 260.0 121.5Q137 272 137 559Q137 845 260.0 996.0Q383 1147 616 1147Z" transform="translate(482.801,244.000) scale(0.009277,-0.009277)" />
-        </g>
+      {withStudio && (
+        <text
+          x="538"
+          y="202"
+          fontSize="100"
+          textLength="410"
+          lengthAdjust="spacingAndGlyphs"
+          className="fill-muted font-mono"
+        >
+          .studio
+        </text>
       )}
     </svg>
   );

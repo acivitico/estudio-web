@@ -7,7 +7,7 @@ Sitio de la software boutique detrás de dCOA y TALG. Entidad legal: Civitico y 
 ## Estado
 
 - [x] 1. Estructura base: Next.js en Cloudflare Workers, español e inglés.
-- [x] 2. Identidad visual provisoria: oscuro técnico (fondo #0C0E0D, texto #E8EAE6, gris #6B706C, acento lima #C8F031), Space Grotesk + JetBrains Mono. Colores en `globals.css`; logo zero9 en `components/Logo.tsx` (variantes `inline` para el menú y `stacked` con .studio para el pie), favicon en `public/icon.svg` y `public/favicon.ico`.
+- [x] 2. Identidad visual provisoria: oscuro técnico (fondo #0C0E0D, texto #E8EAE6, gris #6B706C, acento lima #C8F031), Space Grotesk + JetBrains Mono. Colores en `globals.css`; logo zero9.studio en `components/Logo.tsx` (".studio" en gris, misma línea y tamaño legible; `withStudio={false}` deja solo zero9), favicon en `public/icon.svg` y `public/favicon.ico`.
 - [x] 3. Menú, botones y portada.
 - [x] 4. Secciones y textos (es/en): Servicios (con oferta para galerías), Trabajos (dCOA y Vernissage), Cómo trabajamos, Estudio, Contacto. Textos a perfilar.
 - [ ] 5. Publicación. Hay una versión en https://estudio-web.acivitico.workers.dev. No se vuelve a publicar hasta tener dominio y logo: ese día se hace el cambio completo (nombre, logo, dominio y correo `info@` en Contacto).
