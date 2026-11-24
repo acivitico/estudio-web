@@ -26,7 +26,7 @@
     "items": [
       {
         "title": "Consulting and assessment",
-        "body": "We listen to how your business runs: we talk with you and, when needed, with other areas of the business, because each one sees a different part. We review processes, tools and data; we strip out what's redundant and repeated so everything runs leaner and faster, and we automate or handle with AI whatever makes sense. You get a written report with prioritized improvements and a step-by-step plan, with scope and timeline. It works on its own or as the first step of a build."
+        "body": "We listen to how your business runs: we talk with you and, when needed, with other areas of the business, because each one sees a different part. We want to understand your business, your ideas about how it should work and what you expect. We review processes, tools and data; we strip out what's redundant and repeated so everything runs leaner and faster, and we automate or handle with AI whatever makes sense. You get a written report with prioritized improvements and a step-by-step plan, with scope and timeline. It works on its own or as the first step of a build."
       },
       {
         "title": "Custom development",
@@ -57,7 +57,8 @@
           "Next.js",
           "Supabase",
           "Cloudflare",
-          "OpenTimestamps"
+          "OpenTimestamps",
+          "Backblaze B2"
         ],
         "links": [
           {
@@ -80,7 +81,8 @@
           "Next.js",
           "Supabase",
           "Cloudflare Workers",
-          "R2"
+          "R2",
+          "Backblaze B2"
         ],
         "links": [
           {
@@ -132,7 +134,7 @@
   "about": {
     "title": "Studio",
     "paragraphs": [
-      "We are a software studio based in Montevideo. We build our own products, like dCOA, and work with a few clients at a time, so every project gets direct attention.",
+      "We are a software studio based in Montevideo. We build our own products, like dCOA and Vernissage, and work with a few clients at a time, so every project gets direct attention.",
       "Behind the studio are more than 30 years in technology across Venezuela and Uruguay: software development, HP solutions distribution, e-learning platforms for companies and, in recent years, digital products for the art market.",
       "That mix of technology and business is what we bring to every project: understanding how your company works before writing a single line of code."
     ],

@@ -14,16 +14,8 @@ export function Contact({ dict }: { dict: Dictionary }) {
           {c.title}
         </h2>
         <p className="max-w-2xl text-lg text-muted sm:text-xl">{c.lead}</p>
-        <div>
-          <Button href={waLink}>{c.whatsapp}</Button>
-        </div>
+        {/* Orden: correo, número y, debajo, el botón de WhatsApp */}
         <dl className="grid gap-4 font-mono text-sm sm:grid-cols-[8rem_1fr]">
-          <dt className="text-muted">WhatsApp</dt>
-          <dd>
-            <a href={waLink} className="hover:text-accent">
-              {whatsappDisplay}
-            </a>
-          </dd>
           {email && (
             <>
               <dt className="text-muted">{c.email}</dt>
@@ -34,7 +26,16 @@ export function Contact({ dict }: { dict: Dictionary }) {
               </dd>
             </>
           )}
+          <dt className="text-muted">WhatsApp</dt>
+          <dd>
+            <a href={waLink} className="hover:text-accent">
+              {whatsappDisplay}
+            </a>
+          </dd>
         </dl>
+        <div>
+          <Button href={waLink}>{c.whatsapp}</Button>
+        </div>
         <p className="font-mono text-sm text-muted">
           <span className="text-accent">//</span> {c.location}
         </p>
