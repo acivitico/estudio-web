@@ -18,12 +18,12 @@ export function CiviticoMark({ className = "" }: { className?: string }) {
             stroke="black"
             strokeWidth="26"
           />
-          <line x1="0" y1="132" x2="152" y2="0" stroke="black" strokeWidth="3" />
+          <line x1="0" y1="135" x2="152" y2="0" stroke="black" strokeWidth="3.6" />
         </mask>
       </defs>
       <g fill="currentColor" mask="url(#civitico-cut)">
-        <rect x="0" y="0" width="152" height="132" />
-        <polygon points="0,137 152,137 152,141 76,176 0,141" />
+        <rect x="0" y="0" width="152" height="135" />
+        <polygon points="0,138 152,138 152,141 76,176 0,141" />
       </g>
     </svg>
   );
